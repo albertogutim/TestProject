@@ -72,6 +72,7 @@
 		B328E74315CB0BE50072D336 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				B3F211D815CB19B900712CD6 /* resources */,
 				B328E74C15CB0BE50072D336 /* AppDelegate.h */,
 				B328E74D15CB0BE50072D336 /* AppDelegate.m */,
 				B328E74415CB0BE50072D336 /* Supporting Files */,
@@ -88,6 +89,13 @@
 				B328E74B15CB0BE50072D336 /* TestProject-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3F211D815CB19B900712CD6 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +265,7 @@
 				B328E75315CB0BE50072D336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
