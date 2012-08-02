@@ -13,6 +13,15 @@
 		B328E74815CB0BE50072D336 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B328E74615CB0BE50072D336 /* InfoPlist.strings */; };
 		B328E74A15CB0BE50072D336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B328E74915CB0BE50072D336 /* main.m */; };
 		B328E74E15CB0BE50072D336 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B328E74D15CB0BE50072D336 /* AppDelegate.m */; };
+		B348205C15CB1B5800701E23 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = B348205215CB1B5800701E23 /* check.png */; };
+		B348205D15CB1B5800701E23 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B348205315CB1B5800701E23 /* check@2x.png */; };
+		B348205E15CB1B5800701E23 /* ConfigTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B348205515CB1B5800701E23 /* ConfigTVC.m */; };
+		B348205F15CB1B5800701E23 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = B348205615CB1B5800701E23 /* cross.png */; };
+		B348206015CB1B5800701E23 /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B348205715CB1B5800701E23 /* cross@2x.png */; };
+		B348206115CB1B5800701E23 /* hoja.png in Resources */ = {isa = PBXBuildFile; fileRef = B348205815CB1B5800701E23 /* hoja.png */; };
+		B348206215CB1B5800701E23 /* lapiz2.png in Resources */ = {isa = PBXBuildFile; fileRef = B348205915CB1B5800701E23 /* lapiz2.png */; };
+		B348206315CB1B5800701E23 /* late.png in Resources */ = {isa = PBXBuildFile; fileRef = B348205A15CB1B5800701E23 /* late.png */; };
+		B348206415CB1B5800701E23 /* late@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B348205B15CB1B5800701E23 /* late@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,16 @@
 		B328E74B15CB0BE50072D336 /* TestProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestProject-Prefix.pch"; sourceTree = "<group>"; };
 		B328E74C15CB0BE50072D336 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B328E74D15CB0BE50072D336 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B348205215CB1B5800701E23 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		B348205315CB1B5800701E23 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		B348205415CB1B5800701E23 /* ConfigTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigTVC.h; sourceTree = "<group>"; };
+		B348205515CB1B5800701E23 /* ConfigTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigTVC.m; sourceTree = "<group>"; };
+		B348205615CB1B5800701E23 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		B348205715CB1B5800701E23 /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		B348205815CB1B5800701E23 /* hoja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoja.png; sourceTree = "<group>"; };
+		B348205915CB1B5800701E23 /* lapiz2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lapiz2.png; sourceTree = "<group>"; };
+		B348205A15CB1B5800701E23 /* late.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = late.png; sourceTree = "<group>"; };
+		B348205B15CB1B5800701E23 /* late@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "late@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				B3F211D815CB19B900712CD6 /* resources */,
+				B348205415CB1B5800701E23 /* ConfigTVC.h */,
+				B348205515CB1B5800701E23 /* ConfigTVC.m */,
 				B328E74C15CB0BE50072D336 /* AppDelegate.h */,
 				B328E74D15CB0BE50072D336 /* AppDelegate.m */,
 				B328E74415CB0BE50072D336 /* Supporting Files */,
@@ -94,6 +115,14 @@
 		B3F211D815CB19B900712CD6 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				B348205215CB1B5800701E23 /* check.png */,
+				B348205315CB1B5800701E23 /* check@2x.png */,
+				B348205615CB1B5800701E23 /* cross.png */,
+				B348205715CB1B5800701E23 /* cross@2x.png */,
+				B348205815CB1B5800701E23 /* hoja.png */,
+				B348205915CB1B5800701E23 /* lapiz2.png */,
+				B348205A15CB1B5800701E23 /* late.png */,
+				B348205B15CB1B5800701E23 /* late@2x.png */,
 			);
 			name = resources;
 			sourceTree = "<group>";
@@ -150,6 +179,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B328E74815CB0BE50072D336 /* InfoPlist.strings in Resources */,
+				B348205C15CB1B5800701E23 /* check.png in Resources */,
+				B348205D15CB1B5800701E23 /* check@2x.png in Resources */,
+				B348205F15CB1B5800701E23 /* cross.png in Resources */,
+				B348206015CB1B5800701E23 /* cross@2x.png in Resources */,
+				B348206115CB1B5800701E23 /* hoja.png in Resources */,
+				B348206215CB1B5800701E23 /* lapiz2.png in Resources */,
+				B348206315CB1B5800701E23 /* late.png in Resources */,
+				B348206415CB1B5800701E23 /* late@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +199,7 @@
 			files = (
 				B328E74A15CB0BE50072D336 /* main.m in Sources */,
 				B328E74E15CB0BE50072D336 /* AppDelegate.m in Sources */,
+				B348205E15CB1B5800701E23 /* ConfigTVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
